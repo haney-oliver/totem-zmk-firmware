@@ -33,31 +33,31 @@ layers:
   - .
   - {t: /, h: '&comment'}
   - {t: '''', h: '"'}
-  - Digits
-  - {t: ESC, h: Navigation}
+  - Symbols
+  - {t: ESC, h: Navigation & Digits}
   - SPACE
   - RET
-  - {t: ESC, h: SYSTEM}
-  - Digits
-  Navigation:
-  - {t: ▽, type: trans}
-  - Sft+Gui+ 3
-  - Sft+Gui+ 4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - HOME
-  - UP
-  - END
-  - {t: PAGE UP, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ESC, h: Symbols}
+  - Symbols
+  Navigation & Digits:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
+  - UP ARROW
   - RIGHT
   - ''
   - {t: ▽, type: trans}
@@ -78,44 +78,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Digits:
-  - '|'
+  Symbols:
+  - '!'
+  - '@'
+  - '#'
   - $
-  - '{'
-  - '}'
-  - '&press_two_keys GREATER_THAN EQUAL'
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - ;
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: '!', h: LCTRL}
   - {t: '@', h: LEFT ALT}
   - {t: (, h: LSHFT}
-  - {t: ), h: Navigation}
+  - {t: ), h: Navigation & Digits}
   - '&press_two_keys MINUS GREATER_THAN'
+  - '-'
   - '='
-  - '4'
-  - '5'
-  - '6'
-  - '*'
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
   - '&'
   - LCTRL
   - {t: '[', h: <}
   - {t: ']', h: '>'}
   - '&press_two_keys LESS_THAN EQUAL'
-  - '-'
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - /
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '`'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYSTEM:
   - F1
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
