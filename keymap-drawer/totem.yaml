@@ -33,12 +33,12 @@ layers:
   - .
   - {t: /, h: '&comment'}
   - {t: '''', h: '"'}
-  - Symbols
-  - {t: ESC, h: Navigation & Digits}
+  - SYSTEM
+  - Navigation & Digits
   - SPACE
   - RET
-  - {t: ESC, h: Symbols}
   - Symbols
+  - SYSTEM
   Navigation & Digits:
   - '1'
   - '2'
@@ -60,7 +60,7 @@ layers:
   - UP ARROW
   - RIGHT
   - ''
-  - {t: ▽, type: trans}
+  - ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,11 +111,11 @@ layers:
   - '}'
   - '|'
   - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYSTEM:
   - F1
@@ -150,7 +150,7 @@ layers:
   - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
